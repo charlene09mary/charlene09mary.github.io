@@ -266,7 +266,7 @@ img {
 
 .carousel {
   position: relative;
-  width: 90%;          
+  width: 100%;          
   max-width: 1200px;   
   height: 250px;        
   margin: 30px auto;
@@ -568,8 +568,15 @@ a {
     background-color: #3F6F4E;
 }
 #front-model {
-    width:100%
+  position: relative;
+  width: 100%;          
+  max-width: 1200px;   
+  height: 250px;        
+  margin: 30px auto;
+  overflow: hidden;
+  border-radius: 30px;
 }
+
 
 
 
