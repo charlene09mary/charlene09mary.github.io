@@ -267,6 +267,8 @@ img {
     overflow: hidden;
     line-height: 0;
     border-radius: 0;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
 }
 
 .carousel {
@@ -591,6 +593,7 @@ a {
     display: block;
     object-fit: cover;      
 }
+
 
 
 
