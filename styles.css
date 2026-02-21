@@ -258,7 +258,7 @@ img {
 .carousel {
   position: relative;
   width: 100%;
-  max-width: 1000px; /* adjust to your site */
+  max-width: 10000px; /* adjust to your site */
   margin: 20px auto;
   overflow: hidden;
   border-radius: 20px;
@@ -567,4 +567,5 @@ a {
 .checkout-btn:hover {
     background-color: #3F6F4E;
 }
+
 
