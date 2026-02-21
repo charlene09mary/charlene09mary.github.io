@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-  /* Logo font (cute/playful) */
+
 .site-header .logo {
     height: 100px;
     margin-right: auto;
@@ -260,13 +260,13 @@ img {
 
 .carousel {
   position: relative;
-  width: 100vw;
-  max-width: 100vw; 
-  margin: 0px auto;
-  overflow: hidden;
-    margin-bottom: 0; 
-    padding-bottom: 0;
+  width: 100vw;      
+    height: 400px;      
+    margin: 0;          
+    padding: 0;
+    overflow: hidden;
     line-height: 0;
+    border-radius: 0;
 }
 
 .carousel {
@@ -280,11 +280,12 @@ img {
 }
 
 .carousel-img {
-  width: 100vw;         
-  height: 120%;        
-  object-fit: contain;  
-  display: none;       
-  margin: 0 auto;      
+  width: 100%;
+    height: 120%;
+    object-fit: cover;  
+    display: none;
+    border-radius: 0;  
+    margin: 0; 
 }
 
 .carousel-img.active {
@@ -588,6 +589,7 @@ a {
     display: block;
     object-fit: cover;      
 }
+
 
 
 
