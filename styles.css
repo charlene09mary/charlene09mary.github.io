@@ -261,7 +261,7 @@ img {
 .carousel {
   position: relative;
   width: 100vw;      
-    height: 400px;      
+    height: 450px;      
     margin: 0;          
     padding: 0;
     overflow: hidden;
@@ -583,6 +583,7 @@ a {
     display: block;
     object-fit: cover;      
 }
+
 
 
 
