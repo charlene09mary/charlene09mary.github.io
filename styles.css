@@ -269,17 +269,10 @@ img {
     border-radius: 0;
     margin-left: calc(-50vw + 50%);
     margin-right: calc(-50vw + 50%);
-}
-
-.carousel {
-  position: relative;
-  width: 100vw;          
-  max-width: 100%;   
-  height: 250px;       
-  overflow: hidden;
-    margin-left: calc(-50vw + 50%);
-    margin-right: calc(-50vw + 50%);
- 
+    position: relative;
+    transform: translateX(-50%); 
+    max-width:100%;
+  
 }
 
 .carousel-img {
@@ -288,8 +281,7 @@ img {
     object-fit: cover;  
     display: none;
     border-radius: 0;  
-    margin-left: calc(-50vw + 50%);
-    margin-right: calc(-50vw + 50%);
+   
 }
 
 .carousel-img.active {
@@ -593,6 +585,7 @@ a {
     display: block;
     object-fit: cover;      
 }
+
 
 
 
