@@ -499,7 +499,7 @@ a {
 .cart-item img {
     width: 120px;
     border-radius: 10px;
-     margin-right:50px;
+     margin-right:100px;
 }
 
 .cart-details {
@@ -579,6 +579,7 @@ a {
     display: block;
     object-fit: cover;      
 }
+
 
 
 
