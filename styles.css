@@ -570,12 +570,13 @@ a {
 #front-model {
   position: relative;
   width: 100%;          
-  max-width: 1200px;   
-  height: 250px;        
+  max-width: 1024px;
+  height: 406px;        
   margin: 30px auto;
   overflow: hidden;
   border-radius: 30px;
 }
+
 
 
 
