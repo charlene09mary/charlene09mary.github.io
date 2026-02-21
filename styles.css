@@ -567,18 +567,23 @@ a {
 .checkout-btn:hover {
     background-color: #3F6F4E;
 }
+
 #front-model {
-    width: 100%;       
-    overflow: hidden;  
-    line-height: 0;    
+    width: 100vw;          
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    overflow: hidden;
+    margin-bottom: 40px;    
 }
 
+
 #front-model img {
-    width: 100%;       
-    height: auto;      
-    display: block;    
-    object-fit: cover; 
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;      
 }
+
 
 
 
