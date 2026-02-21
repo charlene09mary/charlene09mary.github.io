@@ -568,12 +568,17 @@ a {
     background-color: #3F6F4E;
 }
 #front-model {
-  position: relative;
-  width:1024;
-  height:406;
-       
+    width: 100%;       
+    overflow: hidden;  
+    line-height: 0;    
 }
 
+#front-model img {
+    width: 100%;       
+    height: auto;      
+    display: block;    
+    object-fit: cover; 
+}
 
 
 
