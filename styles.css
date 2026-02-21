@@ -7,7 +7,7 @@
 .site-header .logo {
     height: 100px;
     margin-right: auto;
-    font-family: 'Fredoka One', cursive; /* if you ever use text instead of image */
+    font-family: 'Fredoka One', cursive;
 }
 
 /* Main headings (product titles, section titles) */
@@ -242,26 +242,26 @@ img {
 /* Header container */
 .site-header {
     display: flex;
-    align-items: center;   /* vertically center logo & nav */
+    align-items: center;   
     padding: 10px 20px;
-    background-color: white; /* or your header color */
+    background-color: white; 
 }
 
 .site-header .logo {
-    height: 90px; /* desktop size */
+    height: 90px; 
     margin-right: auto;
 }
 
 @media (max-width: 768px) {
     .site-header .logo {
-        height: 70px; /* smaller on phones */
+        height: 70px; 
     }
 }
 
 .carousel {
   position: relative;
   width: 100vw;      
-    height: 450px;      
+    height: 400px;      
     margin: 0;          
     padding: 0;
     overflow: hidden;
@@ -468,9 +468,6 @@ a {
     color: #3F6F4E;
 }
 
-/* ========================= */
-/* CART PAGE */
-/* ========================= */
 
 .cart-section {
     padding: 60px 20px;
@@ -583,6 +580,7 @@ a {
     display: block;
     object-fit: cover;      
 }
+
 
 
 
