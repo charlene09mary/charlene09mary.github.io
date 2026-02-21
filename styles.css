@@ -569,13 +569,10 @@ a {
 }
 #front-model {
   position: relative;
-  width: 1024;          
-  max-width: 1024px;
-  height: 406;        
-  margin: 30px auto;
-  overflow: hidden;
-  border-radius: 30px;
+  width: 1024;           
+  height: 406;          
 }
+
 
 
 
