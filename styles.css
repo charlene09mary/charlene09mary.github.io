@@ -178,7 +178,7 @@ nav a:hover {
     background-color: #7A8F5A;
     color: #1A1A1A;
     text-align: center;
-    margin-top:0;
+    margin-top:0px;
 }
 
 .about h2 {
@@ -264,7 +264,6 @@ img {
   max-width: 100vw; 
   margin: 0px auto;
   overflow: hidden;
-  border-radius: 20px;
     margin-bottom: 0; 
     padding-bottom: 0;
     line-height: 0;
@@ -275,9 +274,9 @@ img {
   width: 100vw;          
   max-width: 1200px;   
   height: 250px;        
-  margin: 30px auto;
+  margin:0px auto;
   overflow: hidden;
-  border-radius: 30px;
+ 
 }
 
 .carousel-img {
@@ -589,6 +588,7 @@ a {
     display: block;
     object-fit: cover;      
 }
+
 
 
 
