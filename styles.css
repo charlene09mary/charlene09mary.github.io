@@ -493,6 +493,7 @@ a {
     border-radius: 12px;
     box-shadow: 0 6px 15px rgba(0,0,0,0.1);
     flex-wrap: wrap;
+    text-align:center;
 }
 
 .cart-item img {
@@ -578,6 +579,7 @@ a {
     display: block;
     object-fit: cover;      
 }
+
 
 
 
