@@ -260,22 +260,19 @@ img {
 
 .carousel {
   position: relative;
-  width: 100vw;      
-    height: 500px;      
-    margin: 0;          
-    padding: 0;
+    width: 100vw;     
+    height: 500px;     
+    margin: 0;      
+    padding:0;
     overflow: hidden;
-    line-height: 0;
+    line-height: 0;              
     border-radius: 0;
-    position: relative;
-    transform: translateX(-50%); 
-    max-width:100%;
-  
 }
 
 .carousel-img {
   width: 100%;
     height: 120%;
+    object-fit: cover;  
     display: none;
     border-radius: 0;  
    
@@ -579,6 +576,7 @@ a {
     display: block;
     object-fit: cover;      
 }
+
 
 
 
