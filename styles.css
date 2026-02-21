@@ -567,5 +567,9 @@ a {
 .checkout-btn:hover {
     background-color: #3F6F4E;
 }
+#front-model {
+    width:100%
+}
+
 
 
